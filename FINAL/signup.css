@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Titles */
+#titre {
+    font-family: 'Georgia', serif; /* Elegant serif font for main titles */
+    font-size: 60px;
+    text-align: center;
+    color: #2c3e50; /* Darker shade for the title */
+    margin-top: 50px;
+}
+
+#titre1 {
+    text-align: center;
+    font-family: 'Cursive', cursive; /* Stylish cursive font for subtitles */
+    font-size: 30px;
+    color: #3498db; /* Bright blue for a pop of color */
+}
+
+/* Section */
+.section1 {
+    margin: 50px auto;
+    background-color: #fff; /* White background for the section */
+    border: 3px solid #3498db; /* Blue border */
+    border-radius: 20px;
+    height: auto; /* Adjust height to fit content */
+    width: 80%; /* Responsive width */
+    max-width: 600px; /* Maximum width for large screens */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Text Alignment */
+.div1 {
+    text-align: center;
+}
+
+/* Labels and Inputs */
+#label1,
+#label2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #2c3e50; /* Darker color for labels */
+}
+
+#label2 {
+    margin-top: 12px;
+}
+
+.div2 {
+    margin: 12px auto;
+    position: relative;
+    border-bottom: 2px solid #3498db; /* Blue border */
+}
+
+.div2 label {
+    position: absolute;
+    top: 50%;
+    color: #2c3e50; /* Darker color for label text */
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -20px; /* Move label up when input is focused or valid */
+    color: #3498db; /* Blue color when focused */
+}
+
+.div2 input {
+    width: calc(100% - 20px); /* Full width with padding adjustment */
+    height: 40px;
+    background: #fff; /* White background for input */
+    border: 1px solid #ccc; /* Light gray border */
+    outline: none;
+    font-size: 1em;
+    padding: 10px;
+    color: #333; /* Dark text color */
+}
+
+#input2 {
+    border-radius: 50px; /* Rounded corners */
+}
+
+.btn1 {
+    margin-top: 20px;
+    border-radius: 50px; /* Rounded corners */
+    font-size: 15px;
+    width: 120px; /* Increased width */
+    height: 40px; /* Increased height */
+    background-color: #3498db; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    cursor: pointer;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: #fff; /* White text for links */
+}
+
+/* Images */
+#img1 {
+    width: 200px; /* Increased width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Icon */
+#icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Links */
+#href2 {
+    color: #3498db; /* Blue color for links */
+}
+
+/* Text Blocks */
+.div3 {
+    text-align: center;
+    color: #2c3e50; /* Darker color for text */
+    margin-top: 16px;
+    font-family: 'Trebuchet MS', sans-serif; /* Clean, modern font */
+}
+
+#btn3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+button {
+    text-align: center;
+    padding: 0 2em; /* Adjusted padding */
+    height: 40px; /* Increased height */
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #3498db; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Small Images */
+.img3 {
+    width: 140px;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 10px auto;
+}
+
+/* Paragraphs */
+.p3 {
+    font-size: 25px;
+    color: #2c3e50; /* Darker color for paragraphs */
+    text-align: center;
+    margin: 20px 0;
+}
